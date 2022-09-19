@@ -1,0 +1,6 @@
+.env
+files/
+Dockerfile
+docker-compose.yml
+data/
+docker-entrypoint.sh
