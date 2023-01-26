@@ -31,7 +31,7 @@ class Ad(models.Model):
     description = models.TextField(max_length=500, blank=True, null=True)
     is_verified = models.BooleanField(default=False)
     price = models.BigIntegerField(blank=True, null=True)
-    properties = models.ManyToManyField('PropertyValue')
+    properties = models.ManyToManyField('PropertyValue', blank=True)
     date_created = models.DateTimeField(auto_now_add=True)
     date_modified = models.DateTimeField(auto_now=True)
 
