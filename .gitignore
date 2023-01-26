@@ -5,3 +5,7 @@ docker-compose.yml
 data/
 docker-entrypoint.sh
 celerybeat-schedule
+*.log
+*.pot
+*.pyc
+__pycache__
